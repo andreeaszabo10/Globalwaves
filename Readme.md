@@ -20,3 +20,16 @@ Globalwaves is a CLI music streaming player built using Java. The project levera
 - **Object-Oriented Programming (OOP)**: The system is designed using OOP principles to ensure maintainability and extensibility.
 - **Design Patterns**: The Factory and Singleton patterns are used to manage object creation and ensure the system's reliability.
 - **Jackson Library**: Used for initializing the song library and user databases in JSON format.
+
+## Additional Implementations
+
+- **User Management**:
+  - Users can register, authenticate, and manage their personal settings. Each user can maintain their own profile and playlists.
+- **Song History**:
+  - The player keeps track of the songs each user listens to, allowing them to view their listening history and resume from where they left off.
+- **Database Integration**:
+  - The application uses a simple file-based database in JSON format to store user profiles, song libraries, and playlists, ensuring data persistence across sessions.
+- **Error Handling**:
+  - The system is designed with robust error handling to ensure smooth operation even when unexpected user actions occur (e.g., invalid song requests, playlist management errors).
+- **Scalability**:
+  - The player is built to handle a large number of songs (1000+ per session) without performance degradation, thanks to its efficient data structures and algorithms.
